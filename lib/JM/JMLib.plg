@@ -1,0 +1,121 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: JMLib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB3.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/JMLib.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\temp\ICU-070513-v04\lib\JM\annexb.c"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\temp\ICU-070513-v04\lib\JM\biaridecod.c"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\temp\ICU-070513-v04\lib\JM\block.c"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\temp\ICU-070513-v04\lib\JM\cabac.c"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\temp\ICU-070513-v04\lib\JM\context_ini.c"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\temp\ICU-070513-v04\lib\JM\erc_api.c"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\temp\ICU-070513-v04\lib\JM\erc_do_i.c"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\temp\ICU-070513-v04\lib\JM\erc_do_p.c"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\temp\ICU-070513-v04\lib\JM\errorconcealment.c"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\temp\ICU-070513-v04\lib\JM\filehandle.c"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\temp\ICU-070513-v04\lib\JM\fmo.c"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\temp\ICU-070513-v04\lib\JM\header.c"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\temp\ICU-070513-v04\lib\JM\image.c"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\temp\ICU-070513-v04\lib\JM\ldecod.c"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\temp\ICU-070513-v04\lib\JM\leaky_bucket.c"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\temp\ICU-070513-v04\lib\JM\loopFilter.c"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\temp\ICU-070513-v04\lib\JM\macroblock.c"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\temp\ICU-070513-v04\lib\JM\mb_access.c"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\temp\ICU-070513-v04\lib\JM\mbuffer.c"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\temp\ICU-070513-v04\lib\JM\memalloc.c"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\temp\ICU-070513-v04\lib\JM\nal.c"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\temp\ICU-070513-v04\lib\JM\nal_part.c"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\temp\ICU-070513-v04\lib\JM\nalu.c"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\temp\ICU-070513-v04\lib\JM\nalucommon.c"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\temp\ICU-070513-v04\lib\JM\output.c"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\temp\ICU-070513-v04\lib\JM\parset.c"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\temp\ICU-070513-v04\lib\JM\parsetcommon.c"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\temp\ICU-070513-v04\lib\JM\sei.c"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\temp\ICU-070513-v04\lib\JM\transform8x8.c"
+"C:\Documents and Settings\Administrator\πŸ≈¡ »≠∏È\temp\ICU-070513-v04\lib\JM\vlc.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB3.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB4.tmp" with contents
+[
+/nologo /out:"Debug\JMLib.lib" 
+".\Debug\annexb.obj"
+".\Debug\biaridecod.obj"
+".\Debug\block.obj"
+".\Debug\cabac.obj"
+".\Debug\context_ini.obj"
+".\Debug\erc_api.obj"
+".\Debug\erc_do_i.obj"
+".\Debug\erc_do_p.obj"
+".\Debug\errorconcealment.obj"
+".\Debug\filehandle.obj"
+".\Debug\fmo.obj"
+".\Debug\header.obj"
+".\Debug\image.obj"
+".\Debug\ldecod.obj"
+".\Debug\leaky_bucket.obj"
+".\Debug\loopFilter.obj"
+".\Debug\macroblock.obj"
+".\Debug\mb_access.obj"
+".\Debug\mbuffer.obj"
+".\Debug\memalloc.obj"
+".\Debug\nal.obj"
+".\Debug\nal_part.obj"
+".\Debug\nalu.obj"
+".\Debug\nalucommon.obj"
+".\Debug\output.obj"
+".\Debug\parset.obj"
+".\Debug\parsetcommon.obj"
+".\Debug\sei.obj"
+".\Debug\transform8x8.obj"
+".\Debug\vlc.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPB4.tmp"
+<h3>Output Window</h3>
+Compiling...
+annexb.c
+biaridecod.c
+block.c
+cabac.c
+context_ini.c
+erc_api.c
+erc_do_i.c
+erc_do_p.c
+c:\documents and settings\administrator\πŸ≈¡ »≠∏È\temp\icu-070513-v04\lib\jm\erc_do_p.c(1478) : warning C4018: '<' : signed/unsigned mismatch
+c:\documents and settings\administrator\πŸ≈¡ »≠∏È\temp\icu-070513-v04\lib\jm\erc_do_p.c(1479) : warning C4018: '<' : signed/unsigned mismatch
+errorconcealment.c
+filehandle.c
+fmo.c
+header.c
+image.c
+ldecod.c
+leaky_bucket.c
+loopFilter.c
+macroblock.c
+mb_access.c
+mbuffer.c
+memalloc.c
+nal.c
+nal_part.c
+nalu.c
+nalucommon.c
+output.c
+parset.c
+parsetcommon.c
+sei.c
+transform8x8.c
+vlc.c
+Creating library...
+
+
+
+<h3>Results</h3>
+JMLib.lib - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

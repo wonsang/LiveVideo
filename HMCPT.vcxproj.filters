@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="HTML 도움말 파일">
+      <UniqueIdentifier>{11e9a6cb-f8de-4f11-9c17-3f4049eb4bae}</UniqueIdentifier>
+      <Extensions>hhp;hhc;hhk;gif;jpg</Extensions>
+    </Filter>
+    <Filter Include="HTML 도움말 항목">
+      <UniqueIdentifier>{e837ca9f-2ec1-4031-89f1-fe66f3202345}</UniqueIdentifier>
+      <Extensions>htm;html</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BkdextDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildView.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="HMCPT.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDlg.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="cscc.lib">
+      <Filter>소스 파일</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BkdextDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildView.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Convert.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="HMCPT.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDlg.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="hlp\Images\Bullet.gif">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\HMCPT.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\HMCPT.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="hlp\HMCPT.hhc">
+      <Filter>HTML 도움말 파일</Filter>
+    </None>
+    <None Include="hlp\HMCPT.hhk">
+      <Filter>HTML 도움말 파일</Filter>
+    </None>
+    <None Include="hlp\afx_hidd_color.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\afx_hidd_fileopen.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\afx_hidd_filesave.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\afx_hidd_find.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\afx_hidd_font.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\afx_hidd_newtypedlg.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\afx_hidd_replace.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\afx_hidp_default.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\afx_hidw_dockbar_top.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\afx_hidw_status_bar.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\afx_hidw_toolbar.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_app_about.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_app_exit.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_context_help.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_edit_clear.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_edit_clear_all.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_edit_copy.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_edit_cut.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_edit_find.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_edit_paste.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_edit_redo.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_edit_repeat.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_edit_replace.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_edit_undo.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_file_close.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_file_mru_file1.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_file_new.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_file_open.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_file_save.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_file_save_as.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_file_send_mail.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_help_index.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_help_using.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_ht_caption.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_ht_nowhere.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_next_pane.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_prev_pane.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_sc_close.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_sc_maximize.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_sc_minimize.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_sc_move.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_sc_nextwindow.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_sc_prevwindow.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_sc_restore.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_sc_size.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_sc_tasklist.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_view_ruler.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_view_status_bar.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_view_toolbar.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_window_all.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_window_arrange.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_window_cascade.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_window_new.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_window_split.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_window_tile.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_window_tile_horz.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hid_window_tile_vert.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\hidr_doc1type.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\main_index.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\menu_edit.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\menu_file.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\menu_help.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\menu_view.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\menu_window.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="hlp\scrollbars.htm">
+      <Filter>HTML 도움말 항목</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HMCPT.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </CustomBuild>
+    <CustomBuild Include="hlp\HMCPT.hhp">
+      <Filter>HTML 도움말 파일</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
